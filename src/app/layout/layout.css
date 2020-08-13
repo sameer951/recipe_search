@@ -1,0 +1,26 @@
+.top-row{
+  min-height: 238px;
+}
+.bg-image{
+  height: 100%;
+  min-height: 100vh;
+  background-image: url("/assets/Images/Illustration2.png"), url("/assets/Images/Illustration1.png"), url("/assets/Images/Illustration3.png"), url("/assets/Images/Illustration4.png");
+  background-position: right top -50px, left bottom -50px,center left 80px,right bottom 50px;
+  background-repeat: no-repeat;
+  background-size: 400px , 400px, 150px,175px;
+  background-attachment: fixed;
+}
+
+.search-input {
+  border: 0 !important;
+    box-shadow: none !important;
+    width: 100%;
+}
+.input-group{
+  margin-top: 50px;
+}
+.search-icon{
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+}

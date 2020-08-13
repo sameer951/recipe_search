@@ -1,0 +1,38 @@
+.rating-icon{
+    margin-left: 3px;
+    width: 15px;
+    height: 15px;
+}
+.circle {
+    height: 85px;
+    width: 85px;
+    margin-left: 25px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .circle .num{
+    font-size: 30px;
+    text-align: center;
+    color: #ffff;
+    margin-top: 5px;
+  }
+  .circle .sub-label{
+    font-size: 8px;
+    text-align: center;
+    color: #ffff;
+    margin: -15px !important;
+}
+
+
+
+.heart-icon {
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+}
+.fav-label{
+    margin-top: 10px;
+}
+
