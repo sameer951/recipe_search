@@ -1,23 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import './index.css';
+// import './index.scss';
 import App from './App';
-import store from './app/store/';
+// import store from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter } from 'react-router-dom';
+import { storeFile } from './features/redux/reducers';
+import { HashRouter } from "react-router-dom";
 
-console.log(store)
 ReactDOM.render(
-  <Provider store={store}>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </Provider>,
+  <React.StrictMode>
+    <Provider store={storeFile()}>
+      <HashRouter >
+        <App />
+      </HashRouter >
+    </Provider>
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
