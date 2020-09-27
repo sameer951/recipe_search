@@ -1,7 +1,8 @@
 {
-  "name": "practice-react-redux",
+  "name": "recipe-react-redux",
   "version": "0.1.0",
   "private": true,
+  "homepage": "recipe_search",
   "dependencies": {
     "@reduxjs/toolkit": "^1.4.0",
     "@testing-library/jest-dom": "^4.2.4",
