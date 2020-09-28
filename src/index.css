@@ -9,9 +9,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
-  background-image: url("/assets/Images/Illustration2.png"), url("/assets/Images/Illustration1.png"),
-    url("/assets/Images/Illustration3.png"), url("/assets/Images/Illustration4.png"),
-    url("/assets/Images/Illustration5.png");
+  background-image: url("/recipe_search/assets/Images/Illustration2.png"), url("/recipe_search/assets/Images/Illustration1.png"),
+    url("/recipe_search/assets/Images/Illustration3.png"), url("/recipe_search/assets/Images/Illustration4.png"),
+    url("/recipe_search/assets/Images/Illustration5.png");
   background-position: right top 12px, left bottom 10px, center left 170px, right bottom -5px, right bottom 100px;
   background-repeat: no-repeat;
   background-size: 250px, 250px, 150px, 100px, 30px;
@@ -38,7 +38,7 @@ code {
   color: #aaa;
 }
 .fa-stars {
-  background-image: url("/assets/Icons/rating.png");
+  background-image: url("/recipe_search/assets/Icons/rating.png");
   background-repeat: no-repeat;
   background-position: left 9px top 9px;
   opacity: 0.7;
@@ -46,7 +46,7 @@ code {
 .fa-search2 {
   background-color: white;
   border-radius: 25px;
-  background-image: url("/assets/Icons/Icon-feather-search.png");
+  background-image: url("/recipe_search/assets/Icons/Icon-feather-search.png");
   background-repeat: no-repeat;
   background-position: left 9px top 9px;
   opacity: 0.7;
@@ -98,7 +98,7 @@ input.form-control {
 }
 .clock-icon {
   background-color: white;
-  background-image: url("/assets/Icons/Icon-feather-clock.png");
+  background-image: url("/recipe_search/assets/Icons/Icon-feather-clock.png");
   background-repeat: no-repeat;
   /* background-position: left 5px top 9px; */
   opacity: 1;
